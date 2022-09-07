@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+camelot-py = {extras = ["cv"], version = "*"}
+textract = "*"
+pypdf2 = "*"
+pytz = "*"
+fastapi = "*"
+aspose-words = "*"
+pdf2image = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"

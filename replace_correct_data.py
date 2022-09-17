@@ -22,6 +22,5 @@ for name in names:
                     data['STUDENTS'][name][i][j] = "FREE"
                 else:
                     print("NO FREE")
-
         file.seek(0)
         json.dump(data, file, indent=4)
